@@ -7,7 +7,7 @@ module Rouge
     load_lexer 'typescript/common.rb'
 
     class TSX < JSX
-      include TypescriptCommon
+      extend TypescriptCommon
 
       title 'TSX'
       desc 'TypeScript-compatible JSX (www.typescriptlang.org/docs/handbook/jsx.html)'
